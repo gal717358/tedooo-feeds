@@ -1,11 +1,12 @@
-import React from 'react';
 import './App.css';
-import HomePage from './pages/HomePage';
+import Feeds from './pages/components/Feeds';
+import NavBar from './shared/NavBar';
 
 function App() {
   return (
     <div className='App'>
-      <HomePage />
+      <NavBar />
+      <Feeds />
     </div>
   );
 }

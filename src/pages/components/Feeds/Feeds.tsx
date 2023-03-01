@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import api from '../../../../utils/Api';
-import FeedCard from '../../../../shared/FeedCard';
-import { FeedsDataType } from '../../../../data/feedsData';
+import api from '../../../utils/Api';
+import FeedCard from '../../../shared/FeedCard';
+import { FeedsDataType } from '../../../data/feedsData';
 import useStyles from './useStyles';
 
 const Feeds = () => {
